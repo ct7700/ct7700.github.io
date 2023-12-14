@@ -1,0 +1,21 @@
+.col-md-6 {
+  float: left;
+}
+
+.main-cv-page {
+  display: flex;
+}
+
+.main-cv-page > .work-experience.group {
+  display: flex;
+  justify-content: right;
+}
+
+.main-cv-page > .col-md-6 {
+  justify-content: left;
+}
+
+.portfolio-block.block-intro {
+  height: 560px;
+}
+
