@@ -1,0 +1,65 @@
+/* ======= DEMO LAYOUT ======= */
+/*@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Kanit:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Kanit:ital,wght@0,300;1,300&display=swap");*/
+
+body {
+  background-color: #164863;
+  color: #eeefef;
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  /*font-family: "Kanit", sans-serif;*/
+  font-family: "Poppins", sans-serif;
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  *zoom: 1;
+}
+h1 {
+  color: #7dbadf;
+  font-size: 36px;
+  font-weight: 400;
+  margin: 0;
+}
+h2 {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 5px 0;
+  letter-spacing: 0.1em;
+}
+h3 {
+  font-size: 1.6em;
+  margin: 10px 0 10px 10px;
+}
+a:link,
+a:visited {
+  color: #7097af;
+  text-decoration: none;
+}
+a:hover {
+  color: #7dbadf;
+}
+a img {
+  border: none;
+}
+p {
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 1.6em;
+}
+.lead {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.clear {
+  clear: both;
+  line-height: 0;
+  font-size: 0;
+}

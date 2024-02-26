@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Kanit:ital,wght@0,300;1,300&display=swap');
+
+body {
+  /*background-color: #0D0D0D;*/
+  font-family:"Kanit", sans-serifif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.header {
+  padding: 20px 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #080808;
+  color: white;
+  font-size: 25px;
+}
+.header .name {
+  font-weight: 500;
+}
+.header .navigation {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 750px;
+  }
+
+.header a {
+  /*text-decoration: none;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  color: white;
+  font-size: 21px;
+  padding: 20px;*/
+  background-color: white;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  /*background-image: linear-gradient(to right,
+          var(--primary),
+          var(--primary) 50%,
+          white 50%);*/
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 3px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.2s ease-in-out;
+}
+.header .portfolio {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 21px;
+  font-weight: bold; /* Set your font weight */
+  background-color: #136CF3;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+}
+.header a:hover {
+  border-bottom: 2px solid #136CF3;
+  background-color: #136CF3;
+  text-decoration: none;
+}
+
+.parallax-image {
+  display: block;
+  height: 940px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.parallax-image-01 {
+  background-image: url("assets/eygc55a.jpg");
+}
+
+.parallax-image-02 {
+  background-image: url("assets/eygc55a.jpg");
+
+}
+
+.parallax-image-03 {
+  background-image: url("assets/winter_forest.jpg");
+}
+section {
+  padding: 64px;
+}
+
+section > h2 {
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+

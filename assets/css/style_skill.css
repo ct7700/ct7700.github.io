@@ -1,0 +1,439 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo+Black|Poiret+One|Roboto");
+
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(243, 23%, 18%);
+}
+
+.svg-icon {
+  width: 50px;
+  height: auto;
+}
+.icon-box {
+    text-align: left; /* Align contents to the left */
+  }
+.navbar-brand {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  /*text-transform: uppercase;*/
+  font-weight: 800;
+  color: hsl(0, 0%, 100%) !important;
+}
+.nav-link {
+  font-size: 16px;
+  margin: 15px;
+  color: hsl(0, 0%, 100%) !important;
+}
+.nav-link:hover {
+  color: hsl(7, 96%, 61%) !important;
+}
+.active .nav-link {
+  font-size: 16px;
+  color: white !important;
+  background-color: hsl(7, 96%, 61%);
+  border-radius: 50px;
+}
+.menu-right-btn {
+  padding: 13px 46px;
+  /* margin-right: 4%; */
+  background-color: transparent !important;
+  color: white;
+  border: 2px solid rgb(165, 0, 203) !important;
+  transition: all 300ms ease-in;
+}
+.menu-right-btn:hover {
+  background-color: rgb(240, 198, 47) !important;
+  color: rgb(165, 0, 203) !important;
+}
+.site-content {
+  background-image: url("./images/main\ \(1\).jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.site-title {
+  margin-top: 7%;
+  margin-bottom: 2%;
+  color: white !important;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  position: relative;
+}
+
+.site-title::after {
+  content: ""; /* Required for pseudo-elements */
+  display: block; /* Make it a block element to render it on a new line */
+  width: 200px; /* Adjust the width of the line as needed */
+  height: 3px; /* Adjust the height of the line as needed */
+  border-radius: 5px;
+  background-color: yellow; /* Color of the line */
+  position: absolute; /* Position the pseudo-element relative to the parent */
+  margin-top: 5px;
+  left: 50%; /* Center the pseudo-element horizontally */
+  transform: translateX(-50%); /* Center the pseudo-element horizontally */
+  top: 100%; /* Position the line below the text */
+}
+
+.certificate {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  color: white !important;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 27px;
+  text-align: left;
+}
+
+/*.certificate-box {
+  display: flex; /* Use flexbox for layout */
+/*font-family: "Poppins", sans-serif;
+}*/
+
+.certificate-box-1 {
+  display: flex; /* Use flexbox for layout */
+  font-family: "Poppins", sans-serif;
+  margin-top: 5%;
+}
+.certificate-box-2 {
+  display: flex; /* Use flexbox for layout */
+  font-family: "Poppins", sans-serif;
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+.box {
+  /*width: 50px; /* Set width of each box */
+  height: 30px; /* Set height of each box */
+  margin-right: 1px; /* Add some space between boxes */
+  display: flex; /* Use flexbox for layout inside each box */
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+}
+
+.blue-box {
+  width: 100px;
+  background-color: #bcdef5;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.red-box {
+  width: 100px;
+  background-color: #ce0e2d;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: 2px dotted white;;
+}
+
+.grey-box {
+  width: 100px;
+  background-color: #5b5b5b;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: white;
+}
+.transparent-box-1 {
+  width: 600px;
+  color: white;
+  text-align: left;
+  font-size: 13px;
+}
+.transparent-box-2 {
+  width: 430px;
+  color: white;
+  text-align: left;
+  font-size: 13px;
+}
+
+.site-desc {
+  font-size: 14px;
+}
+.site-btn1 {
+  margin-left: 25%;
+  background: rgb(165, 0, 203) !important;
+  border: rgb(165, 0, 203) !important;
+  color: white !important;
+}
+.site-btn2 {
+  background: rgb(240, 198, 47) !important;
+  color: white;
+}
+.site-btn1:hover {
+  background: rgb(240, 198, 47) !important;
+  color: white !important;
+}
+.site-btn2:hover {
+  background: rgb(165, 0, 203) !important;
+  color: white !important;
+  border: none;
+}
+.site-btn1,
+.site-btn2 {
+  margin-top: 5%;
+  margin-bottom: 40%;
+}
+
+/* section-1 */
+
+.section-1 .heading-1 {
+  margin-top: 8%;
+}
+.section-1 .heading-2 {
+  margin-bottom: 5%;
+  font-size: 39px;
+}
+.section-1 .para-1 {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+.section-1 .card-image-top {
+  height: 13rem;
+}
+
+.section-1 .card-body {
+  background-color: hsl(240, 10%, 70%);
+}
+
+.section-1 .card-text,
+.para-1 {
+  color: rgba(0, 0, 0, 0.59);
+}
+.section-1 {
+  margin-bottom: 8%;
+}
+.card {
+  width: 32rem;
+}
+/* section-2 */
+
+.section-2 .container-fluid {
+  background-image: url("./images/yellow-des.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.section-2 .heading-1 {
+  margin-top: 20%;
+  margin-bottom: 4%;
+  width: 80%;
+  color: rgb(165, 0, 203);
+}
+.section-2 .para {
+  width: 80%;
+  color: black;
+  margin-bottom: 7%;
+}
+.section-2 .btn {
+  margin-bottom: 15%;
+  width: 30%;
+  padding: 2% 5%;
+  background: rgb(165, 0, 203);
+  color: white;
+  border: none;
+}
+
+/* section -3 */
+
+.section-3 {
+  margin-top: 6%;
+}
+.section-3 .heading-1 {
+  color: rgb(165, 0, 203);
+  font-size: 40px;
+  font-weight: 700;
+  /* font-family: 'Archivo Black', sans-serif; */
+  text-transform: uppercase;
+}
+.section-3 .hr-line-1 {
+  width: 10%;
+  position: relative;
+  background-color: rgb(240, 198, 47) !important;
+  margin-bottom: 8%;
+}
+.section-3 i {
+  color: rgb(165, 0, 203);
+}
+.section-3 p {
+  color: rgba(0, 0, 0, 0.59);
+}
+
+/* section -4 */
+.section-4 {
+  margin-top: 8%;
+  background-color: rgb(248, 247, 247) !important;
+}
+
+.section-4 .col-md-7 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.section-4 .col-md-5 {
+  padding-bottom: 0%;
+}
+.section-4 .heading-1 {
+  color: rgb(165, 0, 203);
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-left: 10%;
+}
+.section-4 .para-1 {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.section-4 i {
+  color: rgb(165, 0, 203);
+}
+.section-4 .h-line-1 {
+  margin-top: -10px;
+  width: 10%;
+  size: 15px !important;
+  background-color: rgb(240, 198, 47) !important;
+  position: absolute;
+  margin-left: 10%;
+}
+.section-4 .flex-row {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.section-4 .flex-row p {
+  color: rgba(0, 0, 0, 0.59);
+}
+
+/* footer */
+
+.section-5 {
+  margin-bottom: 0%;
+}
+.section-5 .footer-heading-2 {
+  padding-top: 5%;
+}
+.section-5 .social i {
+  padding-top: 10px;
+  color: rgb(165, 0, 203);
+  font-size: 20px;
+}
+.section-5 .btn-light {
+  background: rgb(165, 0, 203);
+  border: none;
+  color: white;
+  margin: 5px;
+}
+.section-5 .form-control {
+  border-color: rgb(165, 0, 203);
+}
+
+.section-5 .footer-heading {
+  color: black;
+  font-weight: 400;
+}
+
+/* responsive */
+@media screen and (max-width: 768px) {
+  .section-1 .card {
+    width: 14rem;
+  }
+  .section-1 .card-image-top {
+    height: 10rem;
+  }
+  .section-1 .container {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .section-4 .flex-row {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .site-content .site-title {
+    font-size: 40px;
+    /* padding-left: 15%; */
+  }
+  .site-content .site-btn1 {
+    margin-left: 40%;
+    padding: 3% !important;
+  }
+  .site-content .site-btn2 {
+    display: none;
+  }
+  .site-content .site-desc {
+    font-size: 14px;
+    /* padding-left: 15%; */
+  }
+  .section-1 .heading-1,
+  .section-1 .heading-2 {
+    font-size: 25px;
+  }
+  .section-1 .col-md-4 {
+    padding: 5%;
+    margin-left: 10%;
+    margin-right: 0%;
+  }
+  .section-1 .card {
+    width: 20rem;
+  }
+  .section-1 .card-image-top {
+    height: 13rem;
+  }
+  .section-3 .heading-1 {
+    color: rgb(165, 0, 203);
+    font-size: 25px;
+    font-weight: 700;
+    /* font-family: 'Archivo Black', sans-serif; */
+    text-transform: uppercase;
+  }
+  .section-3 i {
+    font-size: 20px;
+  }
+  .section-3 h4 {
+    font-size: 20px;
+  }
+  .section-4 .flex-row {
+    display: none !important;
+  }
+  .section-4 .heading-1 {
+    font-size: 25px;
+  }
+  .section-5 .footer-heading-2 {
+    font-size: 20px;
+  }
+  .section-5 .btn-light {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .site-content .site-title {
+    font-size: 30px;
+    /* padding-left: 15%; */
+  }
+  .site-content .site-btn1 {
+    padding: 3% !important;
+  }
+  .site-content .site-btn2 {
+    display: none;
+  }
+  .site-content .site-desc {
+    font-size: 10px;
+    /* padding-left: 15%; */
+  }
+  .section-1 .heading-1,
+  .section-1 .heading-2 {
+    font-size: 25px;
+  }
+  .section-1 .col-md-4 {
+    padding: 5%;
+    margin-left: 12%;
+    margin-right: 0%;
+  }
+  .section-1 .card {
+    width: 15rem;
+  }
+  .section-4 .flex-row {
+    display: none !important;
+  }
+}
