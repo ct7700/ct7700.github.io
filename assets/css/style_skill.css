@@ -32,6 +32,8 @@ body {
 .active .nav-link {
   font-size: 16px;
   color: white !important;
+  width: 120px;
+  text-align: center;
   background-color: hsl(7, 96%, 61%);
   border-radius: 50px;
 }
