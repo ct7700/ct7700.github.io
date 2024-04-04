@@ -14,14 +14,10 @@
                 <h1 class="font-bold uppercase text-3xl">
                     <a href="/">Rui</a>
                 </h1>
-                <button class="px-4 cursor-pointer lg:hidden" id="burger">
-                    <svg class="w-6" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
-                      </svg>
-                </button>
+                
             <!--<div class="lg:flex">-->
               
-            <ul class="text-xl hidden lg:block lg:flex" id="menu">
+            <ul class="text-xl hidden lg:block lg:flex">
                 <li class="mx-3 flex justify-end">
                     <a href="#" class=" hover:border-b-2 border-yellow-300">
                         <span>About</span>
@@ -43,8 +39,34 @@
                     </a>
                 </li>
             </ul>
-          
+            <button class="px-4 cursor-pointer lg:hidden" id="burger">
+              <svg class="w-6" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+                </svg>
+          </button>
         </div>
+        <ul class="text-xl hidden" id="menu">
+          <li class="my-3 flex justify-end">
+              <a href="#" class=" hover:border-b-2 border-yellow-300">
+                  <span>About</span>
+              </a>
+          </li>
+          <li class="my-3 flex justify-end">
+              <a href="#" class="hover:border-b-2 border-yellow-300">
+                  <span>Work Experience</span>
+              </a>
+          </li>
+          <li class="my-3 flex justify-end">
+              <a href="#">
+                  <span class="bg-red-500 rounded-lg px-3 items-center">IT Skills</span>
+              </a>
+          </li>
+          <li class="my-3 flex justify-end">
+              <a href="#" class=" hover:border-b-2 border-yellow-300">
+                  <span>Marcom Portfolio</span>
+              </a>
+          </li>
+      </ul>
     </header>
    
 
